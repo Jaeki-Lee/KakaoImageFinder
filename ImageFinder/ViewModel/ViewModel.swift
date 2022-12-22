@@ -207,6 +207,7 @@ class ViewModel: RxViewModel, RxViewModelProtocol {
                         break
                     } else {
                         self.imageResponse?.documents[i].isBookmarked = false
+                        
                     }
                 }
             }
